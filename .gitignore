@@ -1,0 +1,8 @@
+# flask venv environment
+flask/venv/
+
+# flask .env
+flask/.env 
+
+# react modules
+react/react-project/node_modules/
