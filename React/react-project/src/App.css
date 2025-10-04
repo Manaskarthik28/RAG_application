@@ -1,56 +1,24 @@
-/* App.css (Minimal Version) */
-
-body {
-    font-family: sans-serif;
-    margin: 40px;
-    display: flex;
-    justify-content: center;
-    background: #f0f0f0;
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.container {
-    width: 100%;
-    max-width: 500px;
-    padding: 20px;
-    background: #fff;
-    border: 1px solid #ccc;
-    border-radius: 6px;
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-h1 {
-    text-align: center;
-    color: #333;
+.response-area{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+button{
+  margin-top: 20px;
+  background-color: skyblue;
 }
 
-textarea {
-    padding: 8px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    resize: vertical;
-}
-
-button {
-    padding: 10px;
-    background: #007bff;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-button:disabled {
-    background: #ccc;
-    cursor: not-allowed;
-}
-
-.response-area {
-    margin-top: 20px;
-    padding: 10px;
-    border-top: 1px solid #eee;
-}
