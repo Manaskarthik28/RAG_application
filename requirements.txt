@@ -1,0 +1,10 @@
+flask
+python-dotenv
+sentence-transformers
+langchain
+langchain-chroma
+langchain-huggingface
+pypdf
+langchain-google-genai
+langchain-community
+gunicorn

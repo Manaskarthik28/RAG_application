@@ -1,0 +1,5 @@
+# venv environment
+venv/
+
+# flask .env
+.env 

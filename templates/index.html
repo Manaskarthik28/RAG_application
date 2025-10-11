@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RAG Chatbot</title>
+</head>
+<body>
+    <h1>NASA Document Q&A</h1>
+
+    <form method="POST">
+        <label for="question">Ask a question about the document:</label><br>
+        <textarea id="question" name="question" rows="3", cols="50">{{ user_question if user_question else '' }}</textarea><br><br>
+        <button type="submit">Get Answer</button>
+    </form>
+
+    {% if rag_answer %}
+        <h2>Answer:</h2>
+        <div style="border: 1px solid #ccc; padding: 15px;">
+            <p>{{ rag_answer }}</p>
+        </div>
+    {% endif %}
+
+</body>
+</html>
