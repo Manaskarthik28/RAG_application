@@ -7,4 +7,4 @@ langchain-huggingface
 pypdf
 langchain-google-genai
 langchain-community
-gunicorn
+
